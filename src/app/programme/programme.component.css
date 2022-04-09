@@ -1,0 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+body{
+
+  border: 7px black double;
+  margin: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 1920px;
+}
