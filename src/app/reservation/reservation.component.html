@@ -1,0 +1,109 @@
+<html>
+<head>
+  <style>
+    #customers {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    #customers td, #customers th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+    #customers tr:hover {background-color: #ddd;}
+
+    #customers th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #04AA6D;
+      color: white;
+    }
+    input{ }
+  </style>
+</head>
+<body>
+
+<h1>A Fancy Table</h1>
+
+<table id="customers">
+  <tr>
+    <th>Quad S</th>
+    <th>Quad</th>
+    <th>Triple</th>
+    <th>Double</th>
+    <th>Single</th>
+  </tr>
+  <tr>
+    <td>..</td>
+    <td>9690 €<br><button><img src="assets/images/yes.jpg" height="30ox" width="30px"></button></td>
+    <td>10890 €<br><button><img src="assets/images/yes.jpg" height="30ox" width="30px"></button></td>
+    <td>11890 €<br><button><img src="assets/images/yes.jpg" height="30ox" width="30px"></button></td>
+    <td>Nous consulter</td>
+  </tr>
+
+</table>
+
+  <h3>Séléctionnez votre date de départ</h3>
+  <select>
+    <option>28/06/2022</option>
+  </select><br><br>
+  <h3>Sélectionnez votre pays de départ</h3>
+  <select>
+    <option>Tunisie</option>
+  </select><br><br><br><br>
+<h3>Adultes ( + de 12 ans)</h3>
+<div class="input-group mb-3" >
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-secondary" type="button" (tap)="minus()" >-</button>
+  </div>
+  <div style="height:40px;width: 80px"><input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"></div>
+
+</div><div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-secondary" type="button">+</button>
+  </div>
+  <div style="height:40px;width: 80px"><input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"></div>
+
+</div><br>
+
+<h3>Enfants ( - de 12 ans)</h3><div class="input-group mb-3" >
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-secondary" type="button">-</button>
+  </div>
+  <div style="height:40px;width: 80px"><input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"></div>
+
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-secondary" type="button">+</button>
+  </div>
+  <div style="height:40px;width: 80px"><input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"></div>
+
+</div><br>
+<h3>Bébé ( - de 2 ans)</h3><div class="input-group mb-3" >
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-secondary" type="button">-</button>
+  </div>
+  <div style="height:40px;width: 80px"><input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"></div>
+
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-secondary" type="button">+</button>
+  </div>
+  <div style="height:40px;width: 80px"><input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"></div>
+
+</div><br><br><br>
+
+</body>
+</html>
+
+
+
+
+
